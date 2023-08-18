@@ -17,5 +17,11 @@ function alerta() {
 }
 
 function dataHora() {
-    document.getElementById('demo').innerHTML = Date()
+    const data = new Date()
+    
+    const dia = data.getDate()
+    const mes = data.getMonth()
+    const ano = data.getFullYear()
+
+    document.getElementById('demo').innerHTML = `Hoje é ${dia} / ${mes} / ${ano}`
 }
