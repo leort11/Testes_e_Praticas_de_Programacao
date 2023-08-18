@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Praticando </title>
+    <link rel ="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <div id="header">
+        <h1 style="margin: 0%; ">Testando CSS, html e javaScript</h1>
+
+    </div>
+
+    <div id="forms">
+        <label for="fnum">Verifica par ou não:</label><br>
+        <input type="number" id="fnum" name="fnum">
+        <input onclick="verNum()" type="submit" value="Enviar">
+        <hr/>
+        <p id="result">Resultado: </p>
+
+    </div>
+
+    <div id="forms" style="margin-top: 10px;">
+        <label for="meu-input">Alerta a mensagem:</label><br>
+        <input type="text" id="meu-input" />
+        <input onclick="alerta()" type="submit" id="meu-submit" value="Enviar" />
+
+
+    </div>
+
+    <div id="forms" style="margin-top: 10px;">
+        <button type="button" onclick="dataHora()">Clique em mim para exibir a data e hora:</button>
+
+        <p id="demo"></p>
+    </div>
+
+</body>
+</html>
